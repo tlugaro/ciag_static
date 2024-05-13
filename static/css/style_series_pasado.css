@@ -1,0 +1,453 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+
+  font-family: "Raleway", sans-serif;
+    background: #fafafa;
+}
+
+p {
+
+  font-family: "Raleway", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+
+    background: rgba(0,0,0,0);
+    border: none;
+    margin-bottom: 40px;
+    z-index: 998;
+    width: 200px;
+    padding:5px;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.legend{
+    z-index: 500;
+}
+#info legend leaflet-control{
+    z-index:500;
+}
+
+.highcharts-figure, .highcharts-data-table table {
+        min-width: 360px;
+        max-width: 960px;
+        margin: 0px auto;
+    }
+
+#highcharts-figure.active {
+    left: 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+    width: 50%;
+    position: fixed;
+    top: 0;
+    left: -80vh;
+    height: 100vh;
+    z-index: 9999;
+    background: #417261;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    align-content: center;
+    padding-right: 15px;
+    padding-left: 2px;
+
+}
+
+#sidebar.active {
+    left: 0;
+}
+#IMAGEN_FLOT {
+                        position:absolute;
+                        top:0%;
+                        right:5%;
+                        }
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:  #417261;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 9999;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: rgba(15,67,30, 0.9);
+}
+
+
+
+#sidebar .sidebar-header {
+
+    padding: 20px;
+    background:  #417261;
+    text-align:center;
+    z-index: 9999;
+}
+
+#sidebar ul.components {
+    padding: 20px ;
+    border-bottom: 1px solid #6f8282;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+    display:inline;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color:#1b365b;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #1b365b;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+form{
+    padding:1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align:center;
+
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background:#417261;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #3f6b4c;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align:center;
+
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: rgba(15,67,30, 1);
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.cta-btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: rgba(15,67,30,1);
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+.cta-btn:hover {
+    border-color: #fff;
+    background: rgb(151, 225, 173);
+
+}
+.cta .cta-btn:hover {
+    border-color: #fff;
+    background: rgb(151, 225, 173);
+
+}
+a.download {
+    background: #fff;
+    color: rgba(15,67,30,1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+a.article,
+a.article:hover {
+    background: #1a60af!important;
+    color: #fff !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 50%;
+    padding: 20px;
+    height:100%;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#newLayer{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+    align-content: center;
+    border-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display:block;
+}
+#newLayer:hover{
+    background-color:rgba(15,67,30, 0.9);
+    position: relative;
+    border:none ;
+    color: #fff;
+}
+#downloaderLayer {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    align-content: center;
+    border-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+#downloaderLayer:hover{
+    background-color:rgba(15,67,30, 0.9);
+    position: relative;
+    border:none ;
+    color: #fff;
+}
+
+#sidebarCollapse{
+    background: rgba(15,67,30, 0.9);
+}
+#sidebarCollapse:hover{
+    background: rgba(15,67,30, 0.9);
+}
+
+@media only screen and (max-width: 1000px) {
+    #IMAGEN_FLOT {
+        position:absolute;
+        top:2%;
+        left:5%;
+        z-index:998;
+    }
+    #sidebar {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        top: 50%;
+        height: 50%;
+        z-index: 9999;
+
+        color: #fff;
+        transition: all 0.3s;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 5px ;
+        margin-bottom: 1px;
+
+        text-align:center;
+    }
+    #sidebar .sidebar-header h2{
+        font-size: 1.1em;
+    }
+    .highcharts-figure, .highcharts-data-table table {
+        min-width: 360px;
+        max-width: 960px;
+        margin: 0px auto;
+    }
+    #sidebar ul.components {
+        padding: 20px 0;
+
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+    #sidebar ul p{
+        color: #fff;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display:inline;
+
+    }
+
+    #sidebar ul li a {
+        padding: 10px;
+        font-size: 1.1em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+        #content{
+            width:100%;
+            height:60%;
+            bottom:50%;
+        }
+        }
+
+
+
+#newLayer{
+    color: #232323;
+    background-color: #fff;
+    align-content: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#newLayer:hover{
+    background-color: #004735;
+
+    border:none ;
+    color: #fff;
+
+}
+#downloaderLayer{
+    color: #232323;
+    background-color: #fff;
+    align-content: center;
+    border: none;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#downloaderLayer:hover{
+    background-color: #004735;
+    position: relative;
+    border:none ;
+    color: #fff;
+}
+
+#volveralinicio{
+    color: #232323;
+    background-color: #fff;
+    align-content: center;
+
+    margin-top:10px;
+    margin-left: 62px;
+    margin-right: 62px;
+    border-radius: 25px;
+    transition: 0.5s;
+
+    border: 2px solid rgba(255, 255, 255, 0.5);
+
+}
+#volveralinicio:hover{
+    background-color: #004735;
+    position: relative;
+
+    color: #fff;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid rgba(197, 197, 197, 0.5);
+
+}
